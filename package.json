@@ -1,0 +1,17 @@
+{
+  "name": "tiny-latex-escape",
+  "version": "0.1.0",
+  "description": "Converts Unicode characters to LaTeX commands and handles special character escaping.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
