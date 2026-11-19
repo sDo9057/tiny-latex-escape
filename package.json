@@ -1,6 +1,6 @@
 {
   "name": "tiny-latex-escape",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Converts Unicode characters to LaTeX commands and handles special character escaping.",
   "type": "module",
   "main": "src/index.js",
