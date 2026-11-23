@@ -29,3 +29,10 @@ Returns a new string with LaTeX special characters escaped and mapped Unicode ch
 ### `unescapeLatex(input: string): string`
 
 Returns a new string with the sequences produced by `escapeLatex` reversed. Throws a `TypeError` if `input` is not a string.
+
+## Design notes
+
+The window stores values eagerly rather than keeping running aggregates. Running
+sums drift with floating point over long streams, and recomputing from a small
+buffer is cheap enough that the drift is not worth the speed.
+
